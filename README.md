@@ -17,3 +17,13 @@ Folder `KAIR/models/networks/network_bit_depth_expansion_Ultra.py` contains the 
 SwinIR repository is included for reference since it is a part of our base model.
 ## Training
 For training code, refer to the instructions at KAIR for training [SWINIR](https://github.com/cszn/KAIR/blob/master/docs/README_SwinIR.md) and use `KAIR/options/swinir/train_bit_depth_expansion.json`
+
+Create datasets with the following scripts `create_dataset.py` for generating pairs out of any chosen dataset and `dataset_generator.py` for validation on Kodak dataset.
+
+Usage: `python create_dataset.py <directory_path>` in `create_dataset.py`.
+
+We use the kaggle urban dataset which can be found on link [Nature](https://www.kaggle.com/datasets/heyitsfahd/nature). Use the 128x folder for training and run the given script on it.
+
+
+
+
