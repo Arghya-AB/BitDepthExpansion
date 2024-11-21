@@ -15,5 +15,5 @@ BDEinference_script.py: error: the following arguments are required: --input_fol
 Put in expected folder if you have an existing folder of the real images the 3 bit images were extracted from and the script also compare metrics such as MSE and PSNR.
 Folder `KAIR/models/networks/network_bit_depth_expansion_Ultra.py` contains the code for the model if needed for training.
 SwinIR repository is included for reference since it is a part of our base model.
-
+## Training
 For training code, refer to the instructions at KAIR for training [SWINIR](https://github.com/cszn/KAIR/blob/master/docs/README_SwinIR.md) and use `KAIR/options/swinir/train_bit_depth_expansion.json`
