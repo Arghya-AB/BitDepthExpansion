@@ -34,7 +34,6 @@ def load_model(model_path, device):
         model = model.cuda()
 
     model = torch.load(model, model_path, map_location=device)
-    print(model)
     return model
 
 
