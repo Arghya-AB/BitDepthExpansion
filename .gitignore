@@ -1,0 +1,12 @@
+testsets/testH/*
+testsets/testL/*
+trainsets/trainH/*
+trainsets/trainL/*
+DatasetGeneration/Input.zip
+DatasetGeneration/Target.zip
+DatasetGeneration/Input/*
+DatasetGeneration/Target/*
+DatasetGeneration/Output/*
+DatasetGeneration/Kodak/*
+showcase/*
+DIP.docx

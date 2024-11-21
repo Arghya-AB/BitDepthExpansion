@@ -1,0 +1,3 @@
+/mnt/c/Users/arghy/Documents/DIP/testsets/testH
+/mnt/c/Users/arghy/Documents/DIP/trainsets/trainH
+/mnt/c/Users/arghy/Downloads/240804/240804/Target
